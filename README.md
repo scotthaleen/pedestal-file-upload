@@ -29,7 +29,7 @@ $ curl -X POST -H "content-type: multipart/form-data" localhost:8080/upload -F "
 
 ```clojure
 
-;; sample of how a File form param lookas as part of a Request
+;; sample of how a File form param look as part of a Request
 ;; (-> request :params } 
 
 {
